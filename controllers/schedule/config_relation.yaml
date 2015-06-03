@@ -1,0 +1,26 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+
+     
+skills:
+    label: Skills
+    view:
+        list: $/plugins/kurtjensen/workers/models/skills/columns.yaml
+        toolbarButtons: create|add|remove
+    manage:
+        showSearch: true
+        recordsPerPage: 10
+        list: $/plugins/kurtjensen/workers/models/skills/columns.yaml
+        form: $/plugins/kurtjensen/workers/models/skills/fields.yaml
+        
+#contacts:
+#    label: Contact
+#    view:
+#        list: $/acme/crm/models/contact/columns.yaml
+#        toolbarButtons: create|add|remove
+#    manage:
+#        showSearch: true
+#        recordsPerPage: 10
+#        list: $/acme/crm/models/contact/columns.yaml
+#        form: $/acme/crm/models/contact/fields.yaml

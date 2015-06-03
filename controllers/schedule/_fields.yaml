@@ -1,0 +1,20 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+    name:
+        label: First Name
+        disabled: true
+        span: left
+    surname:
+        label: Last Name
+        disabled: true
+        span: right
+
+    skills:
+        tab: Skills
+        type: relation

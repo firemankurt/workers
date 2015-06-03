@@ -1,0 +1,24 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+#    title:
+#        label: Title
+#        placeholder: The short name for this skill
+#        span: left
+#    slug:
+#        label: Slug
+#        placeholder: The unique word used in URL for indicating this skill
+#        span: right
+#        preset: title
+#    description:
+#        label: Description
+#        placeholder: Describe the skill here
+#        span: full
+#    updated_at:
+#        label: Updated
+#        disabled: true

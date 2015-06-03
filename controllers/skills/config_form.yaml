@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Skill
+
+# Model Form Field configuration
+form: $/kurtjensen/workers/models/skills/fields.yaml
+
+# Model Class name
+modelClass: KurtJensen\Workers\Models\Skills
+
+# Default redirect location
+defaultRedirect: kurtjensen/workers/skills
+
+# Create page
+create:
+    title: Create Skill
+    redirect: kurtjensen/workers/skills/update/:id
+    redirectClose: kurtjensen/workers/skills
+
+# Update page
+update:
+    title: Edit Skill
+    redirect: kurtjensen/workers/skills
+    redirectClose: kurtjensen/workers/skills
+
+# Preview page
+preview:
+    title: Preview Skill

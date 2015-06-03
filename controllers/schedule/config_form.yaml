@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Schedule
+
+# Model Form Field configuration
+form: $/kurtjensen/workers/controllers/schedule/_fields.yaml
+
+# Model Class name
+modelClass: RainLab\User\Models\User
+
+# Default redirect location
+defaultRedirect: kurtjensen/workers/schedule
+
+# Create page
+create:
+    title: Create Schedule
+    redirect: kurtjensen/workers/schedule/update/:id
+    redirectClose: kurtjensen/workers/schedule
+
+# Update page
+update:
+    title: Edit Schedule
+    redirect: kurtjensen/workers/schedule
+    redirectClose: kurtjensen/workers/schedule
+
+# Preview page
+preview:
+    title: Preview Schedule

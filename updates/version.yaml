@@ -1,0 +1,4 @@
+1.0.1: First version of Workers
+1.0.2:
+    - Created workers tables
+    - create_work_tables.php
